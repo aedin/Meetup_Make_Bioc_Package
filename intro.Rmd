@@ -1,0 +1,48 @@
+---
+title: "Beginners guide to publishing your code in Bioconductor"
+output: html_notebook
+---
+
+*Guide to Making a Bioconductor Package*
+
+1. Organisation of files
+
+* Data
+
+   + Raw Data /Download info
+   + QC/processing
+   + Final "polished data"
+   
+
+ * Code organization
+    + skeleton
+    + Roxygen
+    + unit tests
+   
+2. Dummies guide to github
+ - Overcoming the fear!
+ 
+ 
+3. Coding style 
+- Bioconductor, Google style books
+
+4. R internals
+- S3 v S4 
+- S4 v Hadley Verse
+
+5. Making a good vignette
+- Sample v real data
+
+
+6. Basic RShiny for Bioconductor
+7. Checking Code, build ing
+8. Submitting to Bioc
+
+
+
+    
+        
+  
+
+   
+    
