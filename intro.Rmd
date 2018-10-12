@@ -9,28 +9,28 @@ output: html_notebook
 
 
 
-1. Organisation of files
+1. Organization of files
 * Data
-   + Raw Data (Saving Download info, reproducible, biocFileCache)
+   + Raw Data (Saving Download info, reproducible, BiocFileCache)
    + QC/processing
    + Final "polished data"
-   + Check Sum (how to check for data integrity)
+   + Checksum (how to check for data integrity)
   
  * Code organization
     + skeleton
     + Roxygen
     + unit tests
     
-2. Very brief overview of R classes
-- S3 v S4 
-- Core classes in Bioc  (SummarizedExperiemnt)
-- Beaware of conflicts with Hadley Verse  (package conflicted)
+2. Very brief overview of Bioc/R classes
+ + S3 v S4 
+ + Core classes in Bioc  (SummarizedExperiment)
+ + Beware of conflicts with HadleyVerse  (package conflicted)
 
 3. Coding style 
-- Bioconductor, Google style books
++ Bioconductor, Google style books
 
 4. Create a simple package 
-- Check, Build
++ Check, Build
 
 
 
@@ -38,31 +38,31 @@ output: html_notebook
 1. Dummies guide to github
  
 2. Making a good vignette
-- Sample v real data
-- data packages (and size limits)
-- How to manage external resources (BJ)
++ Sample v real data
++ data packages (and size limits)
++ How to manage when data comes from external resources (eg restfulSE)
 
 3. AnnotationHub, ExperimentHub
 
-3. Check, build, Biocheck
-- error
-- warning
-- style
+3. Check, build, BiocCheck
++ error
++ warning
++ style
 
 4. Man Pages (Roxygen)
 
 5. Submitting to Bioc
-- Packages cycle
-- Devel/Release how it works
-- Versioning
++ Packages cycle
++ Devel/Release how it works
++ Versioning
 
 6. Github for Bioconductor
-- Mirror
-- Pull requests
-- Make changing to released version
++ Mirror
++ Pull requests
++ Make changes to released version
 
-7. Basic RShiny for Bioconductor
-8. HadleyVerse in Bioconductor plyRanges, BioBroom 
+7. Basic RShiny for Bioconductor -interactiveDisplay
+8. HadleyVerse in Bioconductor - plyranges, BioBroom 
 
 
     
